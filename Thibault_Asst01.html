@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+	<head>
+		<style>
+			nav ul
+			{
+				color: #006600;
+			}
+			nav ul li
+			{
+				list-style: none;
+				display: inline-table;
+				position: relative;
+				text-decoration: none;
+				background: #999999;
+				padding-left: 20px;
+				padding-right: 20px;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				border: 1px solid #ccc;
+				border-bottom: 1 px solid #ccc;
+				border-color: #000000;
+				border-width: medium;
+				border-radius: 12px;
+			}
+			nav ul ul 
+			{
+				display: none;
+				position: absolute; top: 100%;
+			}
+			nav ul li:hover > ul 
+		    {
+				display: block;
+				position: absolute;
+				border-color: 000000;
+				border-width: medium;
+				color: ff6633;
+				text-decoration: none;
+				background: #00ccff;
+				padding: 5px;
+				border: 1px solid #ccc;
+				border-bottom: 1px solid #ccc;
+				border-radius: 12px;
+			}
+			nav ul ul li
+			{
+				
+			}
+		</style>
+	</head>
+	
+	<body>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a>
+					<ul>
+						<li><a href="#">Staff</a></li>
+						<li><a href="#">History</a></li>
+						<li><a href="#">Press</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Media</a>
+					<ul>
+						<li><a href="#">Audio</a></li>
+						<li><a href="#">Video</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</body>
+	
+</html>
